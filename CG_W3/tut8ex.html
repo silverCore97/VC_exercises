@@ -1,0 +1,25 @@
+<!doctype html> 
+<html lang="en"> 
+        <head>
+                <style type="text/css">
+                html, body {
+                        overflow: hidden;
+                        height: 100%;
+                        margin: 0;
+                }
+                </style>
+                <title>tut 8 exercise</title> 
+                <meta charset="utf-8"> 
+        </head>
+
+        <body onmousedown="mousePressed(event)" 
+              onkeydown="keyPressed(event)" 
+              tabindex="0" >
+                <div class="container" style="">
+                        <canvas id="canvas"></canvas>
+                        <canvas id="text" style="position: absolute; left: 0px; top: 0px; z-index: 10;"></canvas>
+                </div>
+        </body>
+        <script src="gl-matrix.js"></script> 
+        <script src="tut8ex.js"></script> 
+</html>
